@@ -5,7 +5,7 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    QsTransmissionClient client = QsTransmissionClient.create(
+    QsTransmissionClient client = QsTransmissionClient(
         config: QsTransmissionClientConfig(
             host: "178.18.247.62",
             username: "transmission",

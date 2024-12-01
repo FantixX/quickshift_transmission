@@ -9,12 +9,7 @@ final class QsTransmissionClient {
   final bool isInit;
   final QsTransmissionClientConfig config;
 
-  QsTransmissionClient._({this.isInit = false, required this.config});
-
-  static QsTransmissionClient create(
-      {required QsTransmissionClientConfig config}) {
-    return QsTransmissionClient._(config: config);
-  }
+  QsTransmissionClient({this.isInit = false, required this.config});
 
   /// This gives back a [QsTransmissionClient] with a session id.
   ///
