@@ -22,7 +22,7 @@ final class QsTransmissionClient {
       if (res2.statusCode == 200) {
         Logger().d("Session Established with ID: $sessionId");
 
-        return QsTransmissionClient._(
+        return QsTransmissionClient(
             config: config.copyWith(sessionId: sessionId), isInit: true);
       } else {
         throw Exception(
