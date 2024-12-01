@@ -15,7 +15,7 @@ This is the client library that powers the Transmission intergration of [Quicksh
 
 
 ## Features
-- [x] Full immutability to work flawlessly with RIverpod
+- [x] Full immutability to work flawlessly with Riverpod
 - [x] Simple and easy to use API
 - [ ] Full support for the latest RPC version 18
 
